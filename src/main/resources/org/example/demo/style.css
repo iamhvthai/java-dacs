@@ -1,0 +1,14 @@
+.round-button {
+    -fx-background-radius: 50em;
+    -fx-min-width: 10px;
+    -fx-min-height: 10px;
+}
+
+.button-new {
+    -fx-background-color: white; /* Đặt màu nền thành trắng */
+    -fx-border-width: 0; /* Tắt độ dày viền */
+    -fx-background-radius: 5; /* Độ cong của nền button */
+}
+.panel {
+    -fx-background-color: rgb(255, 255, 255);
+}
