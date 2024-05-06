@@ -16,6 +16,7 @@ public class LoginController {
 
     @FXML
     private Button test;
+     Button left;
 
     @FXML
     public void setStage(Stage stage) {
@@ -35,5 +36,9 @@ public class LoginController {
         stage.setScene(scene);
         stage.show();
 
+    }
+    @FXML
+    void onClicked() {
+        System.out.println("Hello");
     }
 }
