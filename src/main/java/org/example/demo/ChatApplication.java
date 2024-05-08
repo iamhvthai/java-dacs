@@ -20,7 +20,7 @@ public class ChatApplication extends Application {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
             root.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
-            Scene scene = new Scene(root, 900, 600);
+            Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.initStyle(StageStyle.UNDECORATED);
             primaryStage.show();

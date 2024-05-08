@@ -3,23 +3,35 @@
     -fx-min-width: 10px;
     -fx-min-height: 10px;
 }
-
-.button-new {
+.button-sign-up {
     -fx-background-color: white;
     -fx-border-width: 0;
     -fx-background-radius: 5;
+    -fx-underline: true;
 }
 .panel {
     -fx-background-color: rgb(255, 255, 255);
+}
+.grey-background {
+    -fx-border-color: black;
+    -fx-background-color: #f2f2f2;
 }
 .text-input .prompt-text {
     -fx-text-fill: black;
     -fx-border-width: 1px;
 }
 .label_under:hover {
-    -fx-underline: true; /* Hiển thị gạch chân khi rê chuột vào */
+    -fx-underline: true;
 }
-.button-log {
-    -fx-padding: 1 150 1 1 ; /* Padding: top right bottom left */
+.button-log-in {
     -fx-background-color: #6951ff;
+}
+.white-background {
+    -fx-background-color: white;
+}
+.button-create {
+    -fx-background-color: #6951ff;
+    -fx-border-width: 0;
+    -fx-background-radius: 5;
+
 }
